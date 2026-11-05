@@ -1,0 +1,61 @@
+body{
+    /* background-image:url("church.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 50px;
+    font-size: 50px;
+    
+    
+}
+center{
+    text-align: center;
+    text-shadow: 0cqmin;
+    color: red;
+
+}
+footer{
+    text-align: center;
+    color: red;
+}
+footer:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width:350px;
+    height: 300px;
+    margin: 5px;
+    transition: all 1s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+}
+    
+
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 10px solid rgb(58, 2, 11);
+    border-right: 10px solid rgb(53, 2, 11);
+    border-top: 10px solid rgb(44, 3, 10);
+    border-left: 10px solid rgb(48, 2, 9);
+    box-shadow: 10px 10px 10px #888888;
+    
+}
+h1{
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    
+    box-shadow: 10px 10px 10px #888888;
+    text-align: center;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+.btn-xl{
+  padding:1rem 2rem;
+  background-color: rgb(255, 0, 187);
+  font-weight:1000;
+  border-radius: 300px;
+}
